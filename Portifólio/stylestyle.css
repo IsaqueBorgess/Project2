@@ -1,0 +1,114 @@
+body{
+    background-color: rgba(34, 33, 33, 0.5);
+    font-family: Raleway,Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+   
+}
+
+.redes{
+    text-align: center;
+    
+}
+
+header{
+    background-color: white;
+    padding: 5px;
+    margin: 5px auto ;
+    border-radius: 10px;
+    
+}
+
+header .foto{
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    height: 180px;
+}
+
+header >h1 {
+    text-align: center;
+    font-family: Raleway,Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+header a{
+    margin: 10px;
+}
+
+nav{
+    background-color: white;
+    padding: 10px ;
+    margin: 9px;
+    border-radius: 5px;
+}
+
+nav > a{
+    color: rgb(42, 6, 68);
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .2s;
+}
+
+nav > a:hover{
+    background-color: rgb(42, 6, 68);
+    color: white;
+}
+
+main{
+    background-color: aliceblue;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+aside h2{
+    text-align: center;
+}
+
+aside.aps{
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+div.quadrado{
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   display: grid;
+   display: block;
+}
+
+div.quadrado p{
+    text-align: center;
+    font-weight: bolder;
+}
+
+#q1 img{
+    height:100px;
+    width: 100px;
+    padding: 40px 10px 0px 50px;
+}
+
+#q2 img{
+    height:100px;
+    width: 79px;
+    padding: 40px 10px 0px 50px;
+}
+
+#q3 img{
+    max-width: 100px;
+    min-width: 50px;
+   
+    padding: 40px 10px 0px 50px;
+}
